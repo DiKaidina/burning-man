@@ -1,0 +1,134 @@
+body {
+    margin:0px;
+    padding:0;
+    font-family:'Anton', sans-serif; 
+    font-size:  16px;
+}
+
+
+
+header {
+    background: url('../img/header-bg@2x.png') no-repeat center top/cover;
+    
+   
+}
+header a {
+    color: #fff;
+}
+.container {
+    width: 1170px;
+    margin:0 auto;
+   
+
+}
+.menu { 
+    display: flex; 
+    text-decoration: none; 
+    
+}
+    /* все элементы будут в однк линию flex - как правило нужно создавать общего род-ля для элементов и задавать это св-во*/
+    /* uppercase - все буквы заглавные */
+.menu li a {
+    text-transform: uppercase;  
+    text-decoration: none;
+    font-size: 14px;
+    
+}
+.menu li {
+    margin-right: 40px; 
+    
+    /* расстояние между элементами, сдвинули один - сдвинутся все */
+}
+ul, li {
+    padding:0px;
+    list-style-type: none;
+}
+.tel {
+    text-decoration: none;
+    font-size: 17px;
+    margin-left: auto;
+}
+.logo {
+    margin-right: 79px;
+}
+.nav {
+    display: flex;
+    align-items: center;
+    padding-top: 57px;
+    letter-spacing: 0.1em;
+    /* align-items выравнивает по горизонтали */
+}
+.offer {
+    padding-top: 216px;
+    padding-left: 213px;
+    color: #fff;
+    padding-bottom: 238px;
+}
+.offer p {
+    font-size: 30px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+.offer h1 {
+    font-size: 100px;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    margin-top: -20px;
+    margin-bottom: 19px;
+}
+.button {
+    display: block;
+    font-size: 17px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 17px 47px ;
+    border: 1px solid #fff;
+    width: 238px;
+    
+
+}
+/* end of header */
+
+section {
+    margin-top:  111px;
+}
+.container h2 {
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    padding-bottom: 20px;
+}
+.descr {
+    display: flex;
+    
+}
+.left-descr {
+    padding-right: 36px;
+}
+ h3 {
+    text-transform: uppercase;
+    font-size: 25px;
+    letter-spacing: 0.1em;
+    
+}
+.container p {
+    font-family: Open Sans, sans-serif;
+    font-size: 20px;
+    font-weight: 400px;
+    text-align: justify;
+    font-style: normal;
+}
+.gallery {
+    margin-top: 67px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer p{
+    font-family: Open Sans;
+    font-size: 20px;
+    margin-top: 116px;
+    margin-left: 216px;
+}
